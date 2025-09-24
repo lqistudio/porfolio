@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Graphic Design - LQISTUDIO</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header id="main-header">
+  <nav>
+    <ul>
+      <li><a href="index.html"><i class="fa-solid fa-house"></i><span class="nav-text">Home</span></a></li>
+      <li><a href="projects_illustrations.html"><i class="fa-solid fa-paintbrush"></i><span class="nav-text">Illustrations</span></a></li>
+      <li><a href="projects_animations.html"><i class="fa-solid fa-film"></i><span class="nav-text">Animations</span></a></li>
+      <li><a href="projects_graphic.html"><i class="fa-solid fa-object-group"></i><span class="nav-text">Graphic Design</span></a></li>
+      <li><a href="projects_edits.html"><i class="fa-solid fa-scissors"></i><span class="nav-text">Edits</span></a></li>
+      <li><a href="about.html"><i class="fa-solid fa-user"></i><span class="nav-text">About</span></a></li>
+      <li><a href="commissions.html"><i class="fa-solid fa-hand-holding-dollar"></i><span class="nav-text">Commissions</span></a></li>
+      <li><a href="social.html"><i class="fa-solid fa-share-nodes"></i><span class="nav-text">Social</span></a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="graphic" class="projects-section">
+    <h2 class="section-title">🎨 Graphic Design</h2>
+    <div class="projects-grid">
+      <!-- Cards 3xN con clase visible -->
+      <div class="project-card visible" data-images="assets/graphic/g1.jpg">
+        <img src="assets/graphic/g1.jpg" alt="Graphic 1">
+        <h3>Graphic 1</h3>
+      </div>
+      <div class="project-card visible" data-images="assets/graphic/g2.jpg">
+        <img src="assets/graphic/g2.jpg" alt="Graphic 2">
+        <h3>Graphic 2</h3>
+      </div>
+      <div class="project-card visible" data-images="assets/graphic/g3.jpg">
+        <img src="assets/graphic/g3.jpg" alt="Graphic 3">
+        <h3>Graphic 3</h3>
+      </div>
+      <!-- Repite hasta 20 según necesites -->
+    </div>
+  </section>
+</main>
+
+<!-- Modal para expandir imágenes -->
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modal-img">
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

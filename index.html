@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LQISTUDIO</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header id="main-header">
+  <nav>
+    <ul>
+      <li><a href="index.html"><i class="fa-solid fa-house"></i><span class="nav-text">Home</span></a></li>
+      <li><a href="projects_illustrations.html"><i class="fa-solid fa-paintbrush"></i><span class="nav-text">Illustrations</span></a></li>
+      <li><a href="projects_animations.html"><i class="fa-solid fa-film"></i><span class="nav-text">Animations</span></a></li>
+      <li><a href="projects_graphic.html"><i class="fa-solid fa-object-group"></i><span class="nav-text">Graphic Design</span></a></li>
+      <li><a href="projects_edits.html"><i class="fa-solid fa-scissors"></i><span class="nav-text">Edits</span></a></li>
+      <li><a href="about.html"><i class="fa-solid fa-user"></i><span class="nav-text">About</span></a></li>
+      <li><a href="commissions.html"><i class="fa-solid fa-hand-holding-dollar"></i><span class="nav-text">Commissions</span></a></li>
+      <li><a href="social.html"><i class="fa-solid fa-share-nodes"></i><span class="nav-text">Social</span></a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- Sección de logo / presentación -->
+  <section id="home">
+    <div id="logo-container">
+      <h1 id="logo-text">LQISTUDIO</h1>
+      <p>Visual Designer<br>by Sebastián Carrera</p>
+    </div>
+  </section>
+
+  <!-- Sección de proyectos principales -->
+  <section id="main-projects" class="projects-section">
+    <h2 class="section-title"></h2>
+    <div class="projects-grid">
+      <div class="project-card visible">
+        <h3>Lisagam</h3>
+        <p>Asesoría contable integral para empresas y personas naturales. Optimización de procesos y gestión de impuestos en Ecuador.</p>
+      </div>
+      <div class="project-card visible">
+        <h3>Kabala Producciones</h3>
+        <p>Producción audiovisual y diseño creativo para marcas, con enfoque en animación y storytelling impactante.</p>
+      </div>
+      <div class="project-card visible">
+        <h3>UnoMás</h3>
+		<h2> </h2>
+        <p>Otro proyecto destacado donde se implementan técnicas de diseño visual, branding y contenido interactivo.</p>
+      </div>
+      <!-- Agrega más project-card aquí hasta 20 -->
+    </div>
+  </section>
+</main>
+
+<!-- Modal para expandir imágenes / videos (si quieres usarlo en index) -->
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modal-img">
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
